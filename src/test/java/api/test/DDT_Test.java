@@ -27,11 +27,21 @@ public class DDT_Test
         Assert.assertEquals(response.getStatusCode(),200);
 		
 	}
-	@Test(priority=1,dataProvider="UserNmaes",dataProviderClass=DataProviders.class)
-	public void testDeleteUserByNmae(String userName)
+	@Test(priority=2,dataProvider="UserNames",dataProviderClass=DataProviders.class)
+	public void testGetUser(String userName)
+	{
+		Response response=UserEndPoints.readUser(userName);
+		                  response.then().log().all();
+		Assert.assertEquals(response.getStatusCode(),200);
+	}
+	
+	@Test(priority=3,dataProvider="UserNames",dataProviderClass=DataProviders.class)
+	public void testDeleteUser(String userName)
 	{
 		Response response=UserEndPoints.deleteUser(userName);
-		Assert.assertEquals(response.getStatusCode(), 200);
+		                  response.then().log().all();
+		Assert.assertEquals(response.getStatusCode(),200);
 	}
+	
 
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="api.test.DDT_Test">
         <methods>
-          <include name="testDeleteUserByNmae"/>
+          <include name="testGetUser"/>
         </methods>
       </class> <!-- api.test.DDT_Test -->
     </classes>

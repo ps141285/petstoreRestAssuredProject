@@ -1,68 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-17T18:00:11 IST" name="Default suite" finished-at="2024-11-17T18:00:29 IST" duration-ms="18587">
+  <suite started-at="2024-11-17T20:59:13 IST" name="Default suite" finished-at="2024-11-17T20:59:38 IST" duration-ms="24570">
     <groups>
     </groups>
-    <test started-at="2024-11-17T18:00:11 IST" name="Default test" finished-at="2024-11-17T18:00:29 IST" duration-ms="18587">
+    <test started-at="2024-11-17T20:59:13 IST" name="Default test" finished-at="2024-11-17T20:59:38 IST" duration-ms="24570">
       <class name="api.test.DDT_Test">
-        <test-method signature="testDeleteUserByNmae(java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:13 IST" name="testDeleteUserByNmae" data-provider="UserNmaes" finished-at="2024-11-17T18:00:17 IST" duration-ms="3803" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[john_doe]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUserByNmae -->
-        <test-method signature="testDeleteUserByNmae(java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:17 IST" name="testDeleteUserByNmae" data-provider="UserNmaes" finished-at="2024-11-17T18:00:18 IST" duration-ms="1234" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jane_smith]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUserByNmae -->
-        <test-method signature="testDeleteUserByNmae(java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:18 IST" name="testDeleteUserByNmae" data-provider="UserNmaes" finished-at="2024-11-17T18:00:20 IST" duration-ms="1176" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[alex_brown]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUserByNmae -->
-        <test-method signature="testDeleteUserByNmae(java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:20 IST" name="testDeleteUserByNmae" data-provider="UserNmaes" finished-at="2024-11-17T18:00:21 IST" duration-ms="1190" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lisa_white]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUserByNmae -->
-        <test-method signature="testDeleteUserByNmae(java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:21 IST" name="testDeleteUserByNmae" data-provider="UserNmaes" finished-at="2024-11-17T18:00:22 IST" duration-ms="1186" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mark_black]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUserByNmae -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:23 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T18:00:25 IST" duration-ms="1630" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:16 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T20:59:21 IST" duration-ms="4189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:25 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T18:00:26 IST" duration-ms="1157" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:21 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T20:59:22 IST" duration-ms="1225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:26 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T18:00:27 IST" duration-ms="1161" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:22 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T20:59:23 IST" duration-ms="1177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,7 +130,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:27 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T18:00:28 IST" duration-ms="1130" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:23 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T20:59:24 IST" duration-ms="1198" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@4c12331b]" started-at="2024-11-17T18:00:28 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T18:00:29 IST" duration-ms="1110" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:24 IST" name="testPostUser" data-provider="Data" finished-at="2024-11-17T20:59:25 IST" duration-ms="1099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,6 +212,116 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:25 IST" name="testGetUser" data-provider="UserNames" finished-at="2024-11-17T20:59:27 IST" duration-ms="1324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_doe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:27 IST" name="testGetUser" data-provider="UserNames" finished-at="2024-11-17T20:59:28 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane_smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:28 IST" name="testGetUser" data-provider="UserNames" finished-at="2024-11-17T20:59:29 IST" duration-ms="1207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alex_brown]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:29 IST" name="testGetUser" data-provider="UserNames" finished-at="2024-11-17T20:59:30 IST" duration-ms="1142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lisa_white]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:30 IST" name="testGetUser" data-provider="UserNames" finished-at="2024-11-17T20:59:32 IST" duration-ms="1165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mark_black]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:32 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-11-17T20:59:33 IST" duration-ms="1202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_doe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:33 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-11-17T20:59:34 IST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane_smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:34 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-11-17T20:59:35 IST" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alex_brown]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:35 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-11-17T20:59:36 IST" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lisa_white]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String)[pri:3, instance:api.test.DDT_Test@7586beff]" started-at="2024-11-17T20:59:36 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-11-17T20:59:38 IST" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mark_black]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
       </class> <!-- api.test.DDT_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
