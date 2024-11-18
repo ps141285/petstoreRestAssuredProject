@@ -7,10 +7,11 @@
      <listener class-name="api.utilities.ExtentReportManager" /> 
 </listeners>
 
-  <test thread-count="5" name="PetTest">
+  <test  name="PetTest">
     <classes>
-      <class name="api.test.UserTest"/>
-     <class name="api.test.DDT_Test"/>
+       <class name="api.test.UserTest"/>
+        <class name="api.test.UserTest2"/>
+       <class name="api.test.DDT_Test"/>
     </classes>
   </test> <!-- PetTest -->
 </suite> <!-- PetSuit -->
